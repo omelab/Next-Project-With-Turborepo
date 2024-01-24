@@ -1,9 +1,12 @@
 {
   "name": "@repo/ui",
   "version": "0.0.0",
-  "private": true, 
+  "private": true,
   "exports": {
-    ".": "./src/index.ts"
+    "./button": "./src/button.tsx",
+    "./card": "./src/card.tsx",
+    "./code": "./src/code.tsx",
+    "./container": "./src/container.tsx"
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",
